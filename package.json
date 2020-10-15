@@ -1,0 +1,29 @@
+{
+  "name": "changenotificationslackbot",
+  "version": "1.0.0",
+  "description": "Slack Bot for automating Change Notifications",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianord/ChangeNotificationSlackBot.git"
+  },
+  "keywords": [
+    "Slack",
+    "Bot",
+    "Change",
+    "Notification"
+  ],
+  "author": "Adrian Ordonez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adrianord/ChangeNotificationSlackBot/issues"
+  },
+  "homepage": "https://github.com/adrianord/ChangeNotificationSlackBot#readme",
+  "dependencies": {
+    "@slack/bolt": "^2.4.1",
+    "typescript": "^4.0.3"
+  }
+}
